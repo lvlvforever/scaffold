@@ -12,11 +12,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import javax.servlet.http.HttpServletRequest;
 
 @Controller
-public class controller {
+public class HelloController {
+
 
     @RequestMapping("hello")
     public String hello(HttpServletRequest request) {
         request.setAttribute("name", "lvlvforever");
         return "hello";
     }
+
 }
