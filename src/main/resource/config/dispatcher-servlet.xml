@@ -31,5 +31,12 @@
         <property name="suffix" value=".jsp"/>
     </bean>
 
+    <bean class="org.springframework.web.multipart.support.StandardServletMultipartResolver">
+
+    </bean>
+
+
+    <mvc:resources location="WEB-INF/static/" mapping="/rs/**"></mvc:resources>
+
 
 </beans>
