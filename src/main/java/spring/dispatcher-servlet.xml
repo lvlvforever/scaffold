@@ -11,7 +11,11 @@
     <!--开启自动扫包-->
     <context:component-scan base-package="io.lvlvforever"></context:component-scan>
     <!--注入两个实例 用于解析requestmapping等注解 -->
-<mvc:annotation-driven></mvc:annotation-driven>
+    <mvc:annotation-driven></mvc:annotation-driven>
+    <!--对于静态资源特殊处理不再使用dispatcher servlet进行分发-->
+    <mvc:default-servlet-handler></mvc:default-servlet-handler>
+
+
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/jsp/"/>
         <property name="suffix" value=".jsp"/>
