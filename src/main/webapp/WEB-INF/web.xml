@@ -29,6 +29,11 @@
             <param-name>contextConfigLocation</param-name>
             <param-value>classpath:/config/dispatcher-servlet.xml</param-value>
         </init-param>
+        <multipart-config>
+            <location>f:/tmp/</location>
+            <max-file-size>4194304</max-file-size>
+            <max-request-size>8388608</max-request-size>
+        </multipart-config>
     </servlet>
     <servlet-mapping>
         <servlet-name>dispatcher</servlet-name>

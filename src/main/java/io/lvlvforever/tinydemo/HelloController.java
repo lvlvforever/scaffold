@@ -4,7 +4,7 @@
  * Date: 2018-08-23 15:49
  * Project:scaffold
  */
-package io.lvlvforever;
+package io.lvlvforever.tinydemo;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

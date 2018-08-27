@@ -6,6 +6,7 @@
  */
 package io.lvlvforever;
 
+import io.lvlvforever.tinydemo.HelloController;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.test.web.servlet.MockMvc;

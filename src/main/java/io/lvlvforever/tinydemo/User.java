@@ -4,7 +4,7 @@
  * Date: 2018-08-24 15:38
  * Project:scaffold
  */
-package io.lvlvforever;
+package io.lvlvforever.tinydemo;
 
 public class User {
     private String name;
